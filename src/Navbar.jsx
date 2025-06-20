@@ -16,26 +16,26 @@ function Navbar() {
       <div className="flex justify-center">
         <div className="flex justify-evenly  p-3 w-2/3 rounded-4xl">
           {tabs.map((tab) => (
-            <motion.button
-              className="font-bold py-2 px-5 rounded-3xl relative"
+            <Link
+              to={tabpath[tab]}
+              className="font-bold z-10 relative text-white"
               key={tab}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => setactivetab(tab)}
             >
-              {activetab === tab && (
-                <motion.div
-                  className="bg-gray-600 rounded-3xl absolute inset-0"
-                  layoutId="highlight"
-                  transition={{ type: "spring", stiffness: 100, damping: 20 }}
-                ></motion.div>
-              )}
-              <Link
-                to={tabpath[tab]}
-                className="font-bold z-10 relative text-white"
+              <motion.button
+                className="font-bold py-2 px-5 rounded-3xl relative"
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setactivetab(tab)}
               >
+                {activetab === tab && (
+                  <motion.div
+                    className="bg-gray-600 -z-10 text-white rounded-3xl absolute inset-0"
+                    layoutId="highlight"
+                    transition={{ type: "spring", stiffness: 100, damping: 20 }}
+                  ></motion.div>
+                )}
                 {tab}
-              </Link>
-            </motion.button>
+              </motion.button>
+            </Link>
           ))}
         </div>
       </div>
