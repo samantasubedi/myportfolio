@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Icon } from "@iconify/react";
 function Navbar() {
   const tabs = ["Home", "Projects", "About", "Contact"];
   const [activetab, setactivetab] = useState("Home");
   return (
     <div>
       <div className="flex justify-center">
-        <div className="flex justify-evenly bg-gradient-to-r from-gray-800 to-gray-950 p-3 w-2/3 rounded-4xl">
+        <div className="flex justify-evenly  p-3 w-2/3 rounded-4xl">
           {tabs.map((tab) => (
             <motion.button
               className="font-bold py-2 px-5 rounded-3xl relative"
@@ -25,6 +26,26 @@ function Navbar() {
             </motion.button>
           ))}
         </div>
+      </div>
+
+      <div className="absolute flex gap-5 right-15 bottom-5">
+        <Icon
+          icon="line-md:facebook"
+          className="text-black size-[40px] bg-white rounded-full p-1 hover:bg-blue-600 hover:text-white hover:cursor-pointer duration-300 transition-all "
+        />
+
+        <Icon
+          icon="line-md:instagram"
+          className="text-black p-1 bg-white rounded-xl size-[40px] hover:cursor-pointer  duration-300 transition-all hover:text-white hover:bg-gradient-to-bl from-purple-600 to-orange-600"
+        />
+        <Icon
+          icon="line-md:linkedin"
+          className="text-black p-1 rounded-xl bg-white size-[40px] hover:cursor-pointer  duration-300 transition-all hover:bg-blue-700 hover:text-white"
+        />
+        <Icon
+          icon="line-md:github-twotone"
+          className="text-black p-1 bg-white rounded-full size-[40px] hover:bg-black  duration-300 transition-all hover:text-white cursor-pointer"
+        />
       </div>
     </div>
   );
