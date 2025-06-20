@@ -1,9 +1,16 @@
+import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 function Navbar() {
   const tabs = ["Home", "Projects", "About", "Contact"];
   const [activetab, setactivetab] = useState("Home");
+  const tabpath = {
+    Home: "/",
+    Projects: "/projects",
+    About: "/about",
+    Contact: "/contact",
+  };
   return (
     <div>
       <div className="flex justify-center">
@@ -22,7 +29,12 @@ function Navbar() {
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
                 ></motion.div>
               )}
-              <span className="font-bold z-10 relative text-white">{tab}</span>
+              <Link
+                to={tabpath[tab]}
+                className="font-bold z-10 relative text-white"
+              >
+                {tab}
+              </Link>
             </motion.button>
           ))}
         </div>
