@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
+import { Icon } from "@iconify/react/dist/iconify.js";
 import Orb from "./block/Backgrounds/Orb/Orb";
-import Navbar from "./Navbar";
 import RollingGallery from "./block/Components/RollingGallery/RollingGallery";
+import Navbar from "./Navbar";
 function Homepage() {
   return (
     <>
@@ -26,6 +26,40 @@ function Homepage() {
 
         <div className="absolute top-20 left-[45%]  overflow-hidden">
           <RollingGallery autoplay={true} pauseOnHover={false} />
+        </div>
+        <div className="absolute flex gap-5 right-15 bottom-5">
+          <a href="https://www.facebook.com/samanta.subedi.7" target="_blank">
+            {" "}
+            <Icon
+              icon="line-md:facebook"
+              className="text-black size-[40px] bg-white rounded-full p-1 hover:bg-blue-600 hover:text-white hover:cursor-pointer duration-300 transition-all "
+            />
+          </a>
+
+          <a href="https://www.instagram.com/samantasubedi/" target="_blank">
+            {" "}
+            <Icon
+              icon="line-md:instagram"
+              className="text-black p-1 bg-white rounded-xl size-[40px] hover:cursor-pointer  duration-300 transition-all hover:text-white hover:bg-gradient-to-bl from-purple-600 to-orange-600"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/samanta-subedi-1895b9318/ "
+            target="_blank"
+          >
+            {" "}
+            <Icon
+              icon="line-md:linkedin"
+              className="text-black p-1 rounded-xl bg-white size-[40px] hover:cursor-pointer  duration-300 transition-all hover:bg-blue-700 hover:text-white"
+            />
+          </a>
+          <a target="_blank" href="https://github.com/samantasubedi">
+            {" "}
+            <Icon
+              icon="line-md:github-twotone"
+              className="text-black p-1 bg-white rounded-full size-[40px] hover:bg-black  duration-300 transition-all hover:text-white cursor-pointer"
+            />
+          </a>
         </div>
       </div>
 

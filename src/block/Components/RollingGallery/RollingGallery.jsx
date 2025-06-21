@@ -2,22 +2,22 @@
 	Installed from https://reactbits.dev/tailwind/
 */
 
-import { useEffect, useState } from "react";
 import {
   motion,
-  useMotionValue,
   useAnimation,
+  useMotionValue,
   useTransform,
 } from "framer-motion";
-import htmlimage from "../../../images/html.png";
+import { useEffect, useState } from "react";
 import cssimage from "../../../images/css.png";
-import jsimage from "../../../images/js.png";
 import gitimage from "../../../images/git.png";
+import htmlimage from "../../../images/html.png";
+import jsimage from "../../../images/js.png";
 
-import reactrouterimage from "../../../images/reactrouter.png";
-import reactimage from "../../../images/react.png";
-import cimage from "../../../images/cprogramming.png";
 import cplusplusimage from "../../../images/cplusplus.png";
+import cimage from "../../../images/cprogramming.png";
+import reactimage from "../../../images/react.png";
+import reactrouterimage from "../../../images/reactrouter.png";
 import tailwindimage from "../../../images/tailwind.png";
 
 const IMGS = [
@@ -152,7 +152,7 @@ const RollingGallery = ({
               <img
                 src={url}
                 alt="gallery"
-                className="pointer-events-none h-[120px] w-[300px] rounded-[15px] border-[3px] border-white object-cover
+                className="pointer-events-none h-[120px] w-[300px] rounded-[15px]  object-cover
                            transition-transform duration-300 ease-out group-hover:scale-105
                            sm:h-[100px] sm:w-[100px]"
               />
