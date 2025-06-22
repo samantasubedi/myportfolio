@@ -9,16 +9,16 @@ import {
   useTransform,
 } from "framer-motion";
 import { useEffect, useState } from "react";
-import cssimage from "../../../images/css.png";
-import gitimage from "../../../images/git.png";
-import htmlimage from "../../../images/html.png";
-import jsimage from "../../../images/js.png";
+import cssimage from "/images/css.png";
+import gitimage from "/images/git.png";
+import htmlimage from "/images/html.png";
+import jsimage from "/images/js.png";
 
-import cplusplusimage from "../../../images/cplusplus.png";
-import cimage from "../../../images/cprogramming.png";
-import reactimage from "../../../images/react.png";
-import reactrouterimage from "../../../images/reactrouter.png";
-import tailwindimage from "../../../images/tailwind.png";
+import cplusplusimage from "/images/cplusplus.png";
+import cimage from "/images/cprogramming.png";
+import reactimage from "/images/react.png";
+import reactrouterimage from "/images/reactrouter.png";
+import tailwindimage from "/images/tailwind.png";
 
 const IMGS = [
   htmlimage,
