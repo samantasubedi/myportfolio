@@ -19,6 +19,8 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
       projecttitle: "Weather App",
       projectdescription: `A dynamic Weather Forecasting App built with HTML,Tailwind CSS, and JavaScript. Users can search for any city to get real-time weather data, including temperature, humidity, pressure, wind speed, and cloud conditions. The app also displays sunrise and sunset times in both GMT and local time, providing a complete weather overview in a clean, user-friendly interface.`,
       projectimagepath: "/images/weatherappdemoimage.png",
+      demopath: "https://samantasubedi.github.io/weather-app/",
+      githubpath: "https://github.com/samantasubedi/weather-app",
     },
     {
       projecttitle: "To Do List",
@@ -26,6 +28,8 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
 
 `,
       projectimagepath: "/images/todolistdemoimage.png",
+      demopath: "https://to-do-list-theta-lovat.vercel.app/",
+      githubpath: "https://github.com/samantasubedi/To-do-list",
     },
     {
       projecttitle: "Password Generator",
@@ -33,11 +37,17 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
 
 This project demonstrates dynamic DOM manipulation, event handling, conditional logic, and user interface design—all packed into a clean and interactive tool.`,
       projectimagepath: "/images/passwordgeneratordemoimage.png",
+      githubpath:
+        "https://github.com/samantasubedi/basic-projects/tree/main/Password-Generator",
+      demopath:
+        "https://samantasubedi.github.io/basic-projects/Password-Generator/html/passwordgenerator.html",
     },
     {
       projecttitle: "Rock Paper Scissor Game",
       projectdescription: `A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. It features an interactive UI, real-time result updates, and dynamic gameplay against a computer opponent. The game includes randomized computer choices, a scoring system, and smooth animations for an engaging user experience.`,
       projectimagepath: "/images/rpcdemoimage.png",
+      demopath: "https://samantasubedi.github.io/Rock-Paper-Scissor/",
+      githubpath: "https://github.com/samantasubedi/Rock-Paper-Scissor",
     },
     {
       projecttitle: "Stop Watch",
@@ -45,11 +55,17 @@ This project demonstrates dynamic DOM manipulation, event handling, conditional 
 
 This project showcases real-time updates using setInterval, effective use of event listeners, time logic handling, and dynamic DOM manipulation to build a practical and visually styled utility.`,
       projectimagepath: "/images/stopwatchdemoimage.png",
+      demopath:
+        "https://samantasubedi.github.io/basic-projects/stopwatch/html/stopwatch.html",
+      githubpath:
+        "https://github.com/samantasubedi/basic-projects/tree/main/stopwatch",
     },
     {
       projecttitle: "Gender Predictor",
       projectdescription: `A web-based Gender Prediction Tool built with HTML, CSS, and JavaScript. Users can input a name, and the app predicts the gender along with a probability score and estimated name frequency. The interface is designed with a clean, user-friendly layout and dynamic result updates for an interactive experience.`,
       projectimagepath: "/images/genderpredictordemoimage.png",
+      demopath: "https://samantasubedi.github.io/gender-checker/",
+      githubpath: "https://github.com/samantasubedi/gender-checker",
     },
   ];
   return (
