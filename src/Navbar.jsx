@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="flex justify-evenly  p-3 w-2/3 rounded-4xl">
+        <div className="flex justify-evenly  md:p-3 p-1 md:w-2/3 w-fit rounded-4xl">
           {tabs.map((tab) => (
             <NavLink
               to={tabpath[tab]}

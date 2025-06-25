@@ -83,12 +83,12 @@ This project showcases real-time updates using setInterval, effective use of eve
           <a
             href="https://github.com/samantasubedi?tab=repositories"
             target="_blank"
-            className="flex gap-3 w-fit p-5  bg-purple-300 border-transparent text-blue-900 font-bold rounded-2xl text-2xl border-3 hover:border-blue-700 hover:shadow-blue-500 shadow-lg cursor-pointer"
+            className="flex gap-3 w-fit md:p-5 p-1 bg-purple-300 border-transparent text-blue-900 font-bold rounded-2xl md:text-2xl text-lg border-1 md:border-3 hover:border-blue-700 hover:shadow-blue-500 shadow-lg cursor-pointer"
           >
             <div>View all projects on github</div>
             <Icon
               icon="line-md:arrow-right"
-              className="text-4xl text-fuchsia-900 font-extrabold"
+              className="md:text-4xl text-3xl text-fuchsia-900 font-extrabold"
             />
           </a>
         </div>

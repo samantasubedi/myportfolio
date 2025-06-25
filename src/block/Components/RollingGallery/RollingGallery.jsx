@@ -116,9 +116,9 @@ const RollingGallery = ({
   };
 
   return (
-    <div className="relative h-[500px] w-1/2 overflow-hidden">
-      <div className="absolute top-0 left-0 h-full w-[48px] z-10" />
-      <div className="absolute top-0 right-0 h-full w-[48px] z-10" />
+    <div className="relative md:h-[500px] h-[20%] w-1/2 overflow-hidden">
+      <div className="absolute top-0 left-0 h-full md:w-[48px] w-[20%] z-10" />
+      <div className="absolute top-0 right-0 h-full md:w-[48px] w-[20%] z-10" />
 
       <div className="flex h-full items-center justify-center [perspective:1000px] [transform-style:preserve-3d]">
         <motion.div
@@ -136,7 +136,7 @@ const RollingGallery = ({
             width: cylinderWidth,
             transformStyle: "preserve-3d",
           }}
-          className="flex min-h-[200px] cursor-grab items-center justify-center [transform-style:preserve-3d]"
+          className="flex min-h-[150px] cursor-grab items-center justify-center [transform-style:preserve-3d]"
         >
           {images.map((url, i) => (
             <div

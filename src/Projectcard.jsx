@@ -13,7 +13,7 @@ function Projectcard({ currentproject }) {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       transition={{ duriation: 0.7, ease: easeInOut }}
-      className=" p-2 mt-[8%] flex flex-col gap-5 justify-center items-center border-white border-2 w-2/3 bg-gray-200 rounded-lg"
+      className=" md:p-2 p-1 mt-[8%] flex flex-col gap-5 justify-center items-center border-white md:border-2 border-1 md:w-2/3 w-full bg-gray-200 rounded-lg"
     >
       <div className="text-semibold text-3xl text-red-700 font-semibold text-center bg-gray-300 shadow-md shadow-gray-400 p-4 rounded-2xl italic">
         {currentproject.projecttitle}

@@ -7,16 +7,16 @@ function Homepage() {
     <>
       <div className="relative bg-[url('./images/basketball.png')] bg-gray-950 w-screen h-screen overflow-hidden">
         <Navbar />
-        <div className="flex mt-[120px] h-screen left-[100px] absolute items-start px-4">
+        <div className="flex mt-[45%] md:mt-[9%] h-screen left-[6%] absolute items-start px-4">
           <div className="flex flex-col gap-5 w-full max-w-lg">
             {" "}
-            <div className="text-5xl font-semibold text-yellow-400">
+            <div className="text-2xl md:text-5xl font-semibold text-yellow-400">
               Hi I'm{" "}
             </div>
-            <div className="text-7xl text-red-600 mt-[25px]">
+            <div className="text-3xl md:text-7xl text-red-600 md:mt-[2%]">
               Samanta Subedi
             </div>
-            <div className="text-3xl text-purple-700 mt-[50px]">
+            <div className="text-xl md:text-3xl text-purple-700 md:mt-[3%]">
               {" "}
               I craft modern and responsive web applications with passion and
               precision.
@@ -24,10 +24,10 @@ function Homepage() {
           </div>
         </div>
 
-        <div className="absolute top-20 left-[45%]  overflow-hidden">
+        <div className="absolute top-[60%] md:top-20 md:left-[45%] left-[-23%] overflow-hidden">
           <RollingGallery autoplay={true} pauseOnHover={false} />
         </div>
-        <div className="absolute flex gap-5 right-15 bottom-5">
+        <div className="absolute flex gap-3 md:gap-5 md:right-[5%] bottom-3">
           <a href="https://www.facebook.com/samanta.subedi.7" target="_blank">
             {" "}
             <Icon
@@ -63,11 +63,11 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="absolute h-1/2 w-1/2 left-[40%] -translate-x-1/2 top-[120px] overflow-hidden flex justify-center items-center">
+      <div className="absolute h-1/2 w-1/2 md:left-[-12%] left-[20%] translate-x-1/2 md:top-[16%] top-[0%] overflow-hidden flex justify-center items-center">
         <img
           src="https://picsum.photos/200/300"
           alt="image"
-          className="absolute pointer-events-none select-none aspect-square rounded-full size-70" // Simplified positioning
+          className="absolute pointer-events-none select-none aspect-square rounded-full md:size-70 size-40 "
         />
         <Orb />
       </div>
