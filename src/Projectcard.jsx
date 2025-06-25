@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
 import { easeInOut, motion, useInView } from "framer-motion";
 import { useRef } from "react";
 function Projectcard({ currentproject }) {
@@ -12,12 +13,12 @@ function Projectcard({ currentproject }) {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       transition={{ duriation: 0.7, ease: easeInOut }}
-      className=" p-2 mt-[8%] flex flex-col gap-5 justify-center items-center border-white border-2 w-2/3 bg-lime-200 rounded-lg"
+      className=" p-2 mt-[8%] flex flex-col gap-5 justify-center items-center border-white border-2 w-2/3 bg-gray-200 rounded-lg"
     >
-      <div className="text-semibold text-3xl text-red-700 font-semibold text-center bg-gray-200 p-4 rounded-2xl italic">
+      <div className="text-semibold text-3xl text-red-700 font-semibold text-center bg-gray-300 shadow-md shadow-gray-400 p-4 rounded-2xl italic">
         {currentproject.projecttitle}
       </div>
-      <p className="bg-purple-200 font-semibold p-2 rounded-lg">
+      <p className="bg-gray-300 font-semibold p-2 rounded-lg">
         {currentproject.projectdescription}
       </p>
       <img src={currentproject.projectimagepath} alt="demoimage"></img>
@@ -26,16 +27,22 @@ function Projectcard({ currentproject }) {
           <a
             href={currentproject.demopath}
             target="_blank"
-            className=" cursor-pointer hover:shadow-md hover:shadow-black font-bold text-amber-800 bg-amber-200  p-2 rounded-2xl hover:bg-gray-200 transition-all duration-300"
+            className=" text-lg hover:bg-gray-300 cursor-pointer hover:shadow-md hover:shadow-black font-bold text-black bg-gradient-to-br from-gray-100 to-gray-500  border-gray-400  p-2 rounded-2xl  transition-all duration-300 "
           >
-            Demo
+            <div className="flex">
+              <span>Demo</span>
+              <Icon icon="mynaui:globe" width="24" height="24" />
+            </div>
           </a>
           <a
             href={currentproject.githubpath}
             target="_blank"
-            className="cursor-pointer hover:shadow-md hover:shadow-black font-bold text-blue-800 bg-cyan-200  p-2 rounded-2xl hover:bg-gray-200 transition-all duration-300"
+            className="text-lg cursor-pointer hover:shadow-md hover:shadow-blue-900 font-bold text-blue-950 bg-gradient-to-br from-blue-100 to-blue-500  p-2 rounded-2xl hover:bg-gray-200 transition-all duration-300"
           >
-            Github
+            <div className="flex">
+              <span>Github</span>
+              <Icon icon="line-md:github-loop" width="24" height="24" />
+            </div>
           </a>{" "}
         </div>
       </div>
