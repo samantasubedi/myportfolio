@@ -121,7 +121,7 @@ function About() {
                   <Icon icon="material-icon-theme:git" className="text-8xl" />
                   <Icon
                     icon="uiw:github"
-                    className="text-8xl bg-white rounded-2xl"
+                    className="text-8xl bg-white rounded-2xlgit"
                   />
                   <Icon
                     icon="akar-icons:vercel-fill"
