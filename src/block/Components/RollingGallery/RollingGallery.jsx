@@ -152,9 +152,9 @@ const RollingGallery = ({
               <img
                 src={url}
                 alt="gallery"
-                className="pointer-events-none h-[120px] w-[300px] rounded-[15px]  object-cover
+                className="pointer-events-none md:h-[150px] md:w-[150px] rounded-[15px]  object-cover
                            transition-transform duration-300 ease-out group-hover:scale-105
-                           sm:h-[100px] sm:w-[100px]"
+                           h-[80%] w-[80%]"
               />
             </div>
           ))}
