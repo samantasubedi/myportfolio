@@ -39,7 +39,7 @@ function Contact() {
 
   return (
     <>
-      <div className="bg-[url('./images/basketball.png')]  min-h-screen bg-gray-950">
+      <div className="bg-[url('./images/basketballtexture.png')]  min-h-screen bg-gray-950">
         <Navbar />
         <div className="flex flex-col gap-6 items-center mt-10 px-4 text-center">
           <div className="text-4xl md:text-6xl text-white font-bold">

@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 function About() {
   return (
     <>
-      <div className="bg-[url('./images/basketball.png')] h-full bg-gray-950 pb-5 overflow-hidden">
+      <div className="bg-[url('./images/basketballtexture.png')] h-full bg-gray-950 pb-5 overflow-hidden">
         <Navbar />
         <div>
           <div>
