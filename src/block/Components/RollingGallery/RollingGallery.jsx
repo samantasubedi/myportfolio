@@ -9,17 +9,17 @@ import {
   useTransform,
 } from "framer-motion";
 import { useEffect, useState } from "react";
+import cplusplusimage from "/images/cplusplus.png";
+import cimage from "/images/cprogramming.png";
 import cssimage from "/images/css.png";
 import gitimage from "/images/git.png";
 import htmlimage from "/images/html.png";
 import jsimage from "/images/js.png";
-
-import cplusplusimage from "/images/cplusplus.png";
-import cimage from "/images/cprogramming.png";
+import nodejsimage from "/images/nodejs.png";
 import reactimage from "/images/react.png";
 import reactrouterimage from "/images/reactrouter.png";
 import tailwindimage from "/images/tailwind.png";
-
+import typescriptimage from "/images/typescript.png";
 const IMGS = [
   htmlimage,
   cssimage,
@@ -30,6 +30,8 @@ const IMGS = [
   cimage,
   cplusplusimage,
   tailwindimage,
+  typescriptimage,
+  nodejsimage,
 ];
 
 const RollingGallery = ({
@@ -152,7 +154,7 @@ const RollingGallery = ({
               <img
                 src={url}
                 alt="gallery"
-                className="pointer-events-none md:h-[150px] md:w-[150px] rounded-[15px]  object-cover
+                className="pointer-events-none md:h-[130px] md:w-[130px] rounded-[15px]  object-cover
                            transition-transform duration-300 ease-out group-hover:scale-105
                            h-[80%] w-[80%]"
               />
