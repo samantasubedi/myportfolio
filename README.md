@@ -63,8 +63,8 @@ Welcome to my personal developer portfolio — a modern, responsive, and animate
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/samantasubedi/myportfolio.git
+cd myportfolio
 
 # Install dependencies
 npm install
