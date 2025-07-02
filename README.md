@@ -1,4 +1,4 @@
-# 🌐 Developer Portfolio – Samanta Subedi
+# 🌐 Portfolio – Samanta Subedi
 
 Welcome to my personal developer portfolio — a modern, responsive, and animated web application built with **React**, **Tailwind CSS**, and **Framer Motion**. This portfolio showcases who I am, the projects I've built, and how to get in touch with me.
 
