@@ -40,7 +40,7 @@ function Homepage() {
             {" "}
             <Icon
               icon="line-md:instagram"
-              className="text-black p-1 bg-white rounded-xl size-[40px] hover:cursor-pointer  duration-300 transition-all hover:text-white hover:bg-gradient-to-bl from-purple-600 to-orange-600"
+              className="text-black p-1 bg-white rounded-xl size-[40px] hover:cursor-pointer  duration-300 transition-all hover:text-white hover:bg-gradient-to-bl from-purple-600 to-orange-500"
             />
           </a>
           <a
@@ -65,7 +65,7 @@ function Homepage() {
 
       <div className="absolute h-1/2 w-1/2 md:left-[-12%] left-[20%] translate-x-1/2 md:top-[16%] top-[0%] overflow-hidden flex justify-center items-center">
         <img
-          src="https://picsum.photos/200/300"
+          src="./images/myimage.png"
           alt="image"
           className="absolute pointer-events-none select-none aspect-square rounded-full md:size-70 size-40 "
         />
