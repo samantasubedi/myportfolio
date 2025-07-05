@@ -39,7 +39,7 @@ function Contact() {
 
   return (
     <>
-      <div className="bg-[url('./images/basketballtexture.png')]  min-h-screen bg-gray-950">
+      <div className="bg-[url('./images/basketballtexture.png')]  min-h-screen dark:bg-gray-950">
         <Navbar />
         <div className="flex flex-col gap-6 items-center mt-10 px-4 text-center">
           <div className="text-4xl md:text-6xl text-white font-bold">
@@ -52,7 +52,7 @@ function Contact() {
 
         <div className="flex justify-center mt-8 px-4">
           <form onSubmit={form.handleSubmit(onSubmit)} className="w-full">
-            <div className="flex flex-col gap-10 items-center justify-center border-2 border-white p-6 md:p-10 max-w-4xl mx-auto bg-gray-900/50 w-full">
+            <div className="flex flex-col gap-10 items-center justify-center border-2 border-white p-6 md:p-10 max-w-4xl mx-auto dark:bg-gray-900/50 w-full">
               {/* Name */}
               <div className="flex flex-col md:flex-row gap-5 w-full md:items-center">
                 <span className="text-white text-2xl md:text-3xl w-full md:w-32">
