@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "./About";
@@ -31,12 +32,22 @@ function App() {
   return (
     <>
       <button
-        className="bg-red-400 font-bold fixed right-5"
+        className=" font-bold fixed right-5 z-20  cursor-pointer"
         onClick={() => {
           settheme(theme == "dark" ? "light" : "dark");
         }}
       >
-        {theme == "dark" ? " changetolight" : "changetodark"}
+        {theme == "dark" ? (
+          <Icon
+            icon="line-md:sun-rising-loop"
+            className="bg-white size-10 rounded-full"
+          />
+        ) : (
+          <Icon
+            icon="line-md:moon-alt-loop"
+            className="bg-gray-700 size-10 rounded-full "
+          />
+        )}
       </button>
 
       <Routes>
