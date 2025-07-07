@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <button
-        className=" font-bold fixed right-5 z-20  cursor-pointer"
+        className=" font-bold fixed right-5 z-20 md:top-2.5 top-12 cursor-pointer"
         onClick={() => {
           settheme(theme == "dark" ? "light" : "dark");
         }}
@@ -40,12 +40,12 @@ function App() {
         {theme == "dark" ? (
           <Icon
             icon="line-md:sun-rising-loop"
-            className="bg-white size-10 rounded-full"
+            className="bg-white size-5 md:size-10 rounded-full"
           />
         ) : (
           <Icon
             icon="line-md:moon-alt-loop"
-            className="bg-gray-700 size-10 rounded-full "
+            className="bg-gray-700 size-5 md:size-10 rounded-full "
           />
         )}
       </button>

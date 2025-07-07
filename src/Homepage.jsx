@@ -63,11 +63,11 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="absolute h-1/2 w-1/2 md:left-[-12%] left-[20%] translate-x-1/2 md:top-[16%] top-[0%] overflow-hidden flex justify-center items-center">
+      <div className="absolute h-1/2 w-1/2 md:left-[-12%] left-[20%] translate-x-1/2 md:top-[16%] top-[0%] overflow-hidden flex justify-center items-center ">
         <img
-          src="./images/myimage.png"
+          src="/images/myimage.png"
           alt="image"
-          className="absolute pointer-events-none select-none aspect-square rounded-full md:size-70 size-40 "
+          className="absolute  pointer-events-none select-none aspect-square rounded-full md:size-70 size-40 "
         />
         <Orb />
       </div>
