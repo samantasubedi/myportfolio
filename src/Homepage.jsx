@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function Homepage() {
   return (
     <>
-      <div className="relative bg-[url('./images/basketballtexture.png')] bg-gray-300 dark:bg-gray-950 w-screen h-screen overflow-hidden">
+      <div className="relative bg-[url('/images/basketballtexture.png')] bg-gray-300 dark:bg-gray-950 w-screen h-screen overflow-hidden">
         <Navbar />
         <div className="flex mt-[45%] md:mt-[9%] h-screen left-[6%] absolute items-start px-4">
           <div className="flex flex-col gap-5 w-full max-w-lg">

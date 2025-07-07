@@ -70,7 +70,7 @@ This project showcases real-time updates using setInterval, effective use of eve
   ];
   return (
     <>
-      <div className="bg-[url('./images/basketballtexture.png')] h-fit bg-gray-950 pb-10">
+      <div className="bg-[url('/images/basketballtexture.png')] h-fit bg-gray-950 pb-10">
         <Navbar />
 
         <div className="flex justify-center items-center flex-col gap-2">
