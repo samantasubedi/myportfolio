@@ -22,7 +22,7 @@ function Navbar() {
             >
               {({ isActive }) => (
                 <motion.button
-                  className="font-bold py-2 px-5 rounded-3xl relative cursor-pointer"
+                  className="font-bold py-2 px-5 rounded-3xl relative cursor-pointer font-mono"
                   whileTap={{ scale: 0.9 }}
                 >
                   {isActive && (

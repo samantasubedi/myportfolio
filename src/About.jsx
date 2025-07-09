@@ -18,18 +18,18 @@ function About() {
                 </span>
               </div>
 
-              <p className="text-white  md:text-xl text-md md:w-2/3 w-full">
+              <p className="text-white  md:text-xl text-md md:w-2/3 w-full font-serif italic">
                 I'm a passionate frontend web developer with a strong foundation
-                in HTML, CSS, JavaScript, and modern libraries like React and
-                Tailwind CSS. I enjoy building responsive, interactive, and
-                visually appealing user interfaces that provide seamless user
-                experiences. From crafting detailed single-page applications to
-                experimenting with animations and UI effects, I love turning
-                ideas into real-world web projects. I'm constantly learning,
-                exploring new tools, and pushing myself to improve with every
-                project I build.
+                in HTML, CSS, JavaScript,TypeScript and modern libraries like
+                React.js,Next.js & Tailwind CSS. I enjoy building responsive,
+                interactive, and visually appealing user interfaces that provide
+                seamless user experiences. From crafting detailed single-page
+                applications to experimenting with animations and UI effects, I
+                love turning ideas into real-world web projects. I'm constantly
+                learning, exploring new tools, and pushing myself to improve
+                with every project I build.
               </p>
-              <div className="flex flex-col gap-5 mt-1 md:mt-7">
+              <div className="flex flex-col gap-5 mt-1 md:mt-7 ">
                 <div className="flex gap-2 bg-white/10 rounded-2xl p-1 w-fit ">
                   <Icon
                     icon="fluent-mdl2:education"
@@ -40,20 +40,20 @@ function About() {
                   </span>
                 </div>
                 <div className="flex md:gap-5 gap-8 text-white">
-                  <span className="md:text-xl text-sm font-bold">
-                    Tribhuvan University -{" "}
+                  <span className="md:text-xl text-sm font-bold font-serif bg-white/10">
+                    Tribhuvan University{" "}
                   </span>
-                  <p className="md:text-lg text-sm font-semibold">
-                    Bachelors of Science in Computer Science and Information
+                  <p className="md:text-lg text-sm font-semibold font-serif">
+                    - Bachelors of Science in Computer Science and Information
                     Technology (BScCSIT) (2023-Present)
                   </p>
                 </div>
-                <div className="flex text-white">
-                  <span className="md:text-xl text-sm font-bold">
-                    Free Code Camp -{" "}
+                <div className="flex text-white ">
+                  <span className="md:text-xl text-sm font-bold font-serif bg-white/10">
+                    Free Code Camp {"   "}
                   </span>
-                  <p className="md:text-lg text-md font-semibold">
-                    Responsive Web Design Certification
+                  <p className="md:text-lg text-md font-semibold font-serif">
+                    - Responsive Web Design Certification
                   </p>
                 </div>
               </div>
@@ -80,8 +80,8 @@ function About() {
                 </div>
                 <div className="flex  gap-4 items-center md:gap-x-20">
                   <Icon
-                    icon="vscode-icons:file-type-js-official"
-                    className="md:text-8xl text-5xl"
+                    icon="skill-icons:javascript"
+                    className="text-5xl md:text-8xl"
                   />
                   <Icon icon="devicon:html5" className="md:text-8xl text-5xl" />
                   <Icon
@@ -90,11 +90,15 @@ function About() {
                   />
                   <Icon
                     icon="streamline-logos:c-language-logo-solid"
-                    className=" text-5xl md:text-8xl bg-blue-700 rounded-4xl text-white"
+                    className=" text-5xl md:text-8xl bg-blue-700 rounded-3xl text-white"
                   />
                   <Icon
                     icon="streamline-logos:c-plus-language-logo-solid"
-                    className="text-5xl md:text-8xl bg-purple-700 text-white rounded-4xl"
+                    className="text-5xl md:text-8xl bg-purple-700 text-white rounded-3xl"
+                  />
+                  <Icon
+                    icon="skill-icons:typescript"
+                    className="text-5xl md:text-8xl bg-sky-600 text-white rounded-3xl"
                   />
                 </div>
               </div>
@@ -115,6 +119,10 @@ function About() {
                   <Icon icon="logos:nodejs" className="text-5xl md:text-8xl" />
                   <Icon
                     icon="vscode-icons:file-type-vite"
+                    className="text-5xl md:text-8xl"
+                  />
+                  <Icon
+                    icon="devicon:nextjs"
                     className="text-5xl md:text-8xl"
                   />
                 </div>

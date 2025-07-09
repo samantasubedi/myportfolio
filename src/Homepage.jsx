@@ -10,13 +10,13 @@ function Homepage() {
         <div className="flex mt-[45%] md:mt-[9%] h-screen left-[6%] absolute items-start px-4">
           <div className="flex flex-col gap-5 w-full max-w-lg">
             {" "}
-            <div className="text-2xl md:text-5xl font-semibold text-yellow-400">
+            <div className="text-2xl md:text-5xl font-semibold text-yellow-400 font-mono">
               Hi I'm{" "}
             </div>
-            <div className="text-3xl md:text-7xl text-red-600 md:mt-[2%]">
+            <div className="text-3xl md:text-7xl text-red-600 md:mt-[2%] font-mono">
               Samanta Subedi
             </div>
-            <div className="text-xl md:text-3xl text-purple-700 md:mt-[3%]">
+            <div className="text-xl md:text-3xl text-purple-700 md:mt-[3%] font-mono">
               {" "}
               I craft modern and responsive web applications with passion and
               precision.

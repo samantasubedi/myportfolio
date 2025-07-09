@@ -15,10 +15,10 @@ function Projectcard({ currentproject }) {
       transition={{ duriation: 0.7, ease: easeInOut }}
       className=" md:p-2 p-1 mt-[8%] flex flex-col gap-5 justify-center items-center border-white md:border-2 border-1 md:w-2/3 w-full bg-gray-200 rounded-lg"
     >
-      <div className="text-semibold text-3xl text-red-700 font-semibold text-center bg-gray-300 shadow-md shadow-gray-400 p-4 rounded-2xl italic">
+      <div className="font-serif text-semibold text-3xl text-red-700 font-semibold text-center bg-gray-300 shadow-md shadow-gray-400 p-4 rounded-2xl italic">
         {currentproject.projecttitle}
       </div>
-      <p className="bg-gray-300 font-semibold p-2 rounded-lg">
+      <p className="font-serif bg-gray-300 font-semibold p-2 rounded-lg">
         {currentproject.projectdescription}
       </p>
       <img src={currentproject.projectimagepath} alt="demoimage"></img>

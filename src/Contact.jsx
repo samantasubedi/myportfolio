@@ -42,10 +42,10 @@ function Contact() {
       <div className="bg-[url('/images/basketballtexture.png')]  min-h-screen dark:bg-gray-950">
         <Navbar />
         <div className="flex flex-col gap-6 items-center mt-10 px-4 text-center">
-          <div className="text-4xl md:text-6xl text-white font-bold">
+          <div className="text-4xl md:text-6xl text-white font-bold  font-serif">
             Get In Touch
           </div>
-          <div className="text-white font-semibold text-xl md:text-2xl">
+          <div className="text-white font-semibold text-xl md:text-2xl font-serif">
             Leave your message
           </div>
         </div>
