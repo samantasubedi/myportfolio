@@ -18,7 +18,7 @@ import jsimage from "/images/js.png";
 import nextjsimage from "/images/nextjs.png";
 import nodejsimage from "/images/nodejs.png";
 import reactimage from "/images/react.png";
-import reactrouterimage from "/images/reactrouter.png";
+
 import tailwindimage from "/images/tailwind.png";
 import typescriptimage from "/images/typescript.png";
 const IMGS = [
@@ -27,7 +27,7 @@ const IMGS = [
   jsimage,
   reactimage,
   gitimage,
-  reactrouterimage,
+
   cimage,
   cplusplusimage,
   tailwindimage,
