@@ -15,6 +15,15 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
       demopath: "https://job-application-tracker-ashen.vercel.app/",
       githubpath: "https://github.com/samantasubedi/Job-application-tracker",
     },
+
+    {
+      projecttitle: "AI Resume Analyzer",
+      projectdescription: `A smart resume evaluation tool that uses OpenAI's GPT-4o to analyze resumes and provide structured feedback. Users can upload their resume as an image, and the system generates a detailed analysis covering strengths, weaknesses, and actionable suggestions. The tool assesses formatting, technical skills, project impact, and overall presentation, offering ratings across various factors. Built with Next.js, React, Tailwind CSS, and OpenAI API, it demonstrates skills in API integration, prompt engineering, image handling, and full-stack development.`,
+      projectimagepath: "/images/resumeanalyzerdemoimage.png",
+      demopath: "",
+      githubpath: "https://github.com/samantasubedi/Resume_Analyzer",
+    },
+
     {
       projecttitle: "Weather App",
       projectdescription: `A dynamic Weather Forecasting App built with HTML,Tailwind CSS, and JavaScript. Users can search for any city to get real-time weather data, including temperature, humidity, pressure, wind speed, and cloud conditions. The app also displays sunrise and sunset times in both GMT and local time, providing a complete weather overview in a clean, user-friendly interface.`,

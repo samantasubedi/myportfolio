@@ -15,6 +15,7 @@ import cssimage from "/images/css.png";
 import gitimage from "/images/git.png";
 import htmlimage from "/images/html.png";
 import jsimage from "/images/js.png";
+import nextjsimage from "/images/nextjs.png";
 import nodejsimage from "/images/nodejs.png";
 import reactimage from "/images/react.png";
 import reactrouterimage from "/images/reactrouter.png";
@@ -32,6 +33,7 @@ const IMGS = [
   tailwindimage,
   typescriptimage,
   nodejsimage,
+  nextjsimage,
 ];
 
 const RollingGallery = ({
