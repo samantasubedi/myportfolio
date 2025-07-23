@@ -5,18 +5,18 @@ import Navbar from "./Navbar";
 function Homepage() {
   return (
     <>
-      <div className="relative bg-[url('/images/basketballtexture.png')] bg-gray-300 dark:bg-gray-950 w-screen h-screen overflow-hidden">
+      <div className="relative bg-[url('/images/basketballtexture.png')] bg-blend-color-burn bg-white/70 dark:bg-gray-950 w-screen h-screen overflow-hidden">
         <Navbar />
-        <div className="flex mt-[45%] md:mt-[9%] h-screen left-[6%] absolute items-start px-4">
-          <div className="flex flex-col gap-5 w-full max-w-lg">
+        <div className="flex mt-[45%] md:mt-[9%] h-screen left-[2%] absolute items-start px-4">
+          <div className="flex flex-col gap-5 w-full max-w-lg p-5 rounded-3xl bg-white/70 dark:bg-transparent">
             {" "}
-            <div className="text-2xl md:text-5xl font-semibold text-yellow-400 font-mono">
+            <div className="text-2xl md:text-5xl font-semibold text-yellow-400 font-mono bg-white/90 w-fit p-2 rounded-2xl dark:bg-transparent">
               Hi I'm{" "}
             </div>
-            <div className="text-3xl md:text-7xl text-red-600 md:mt-[2%] font-mono">
+            <div className="text-3xl md:text-7xl text-red-600 md:mt-[2%] font-mono bg-white/90 w-fit p-2 rounded-2xl dark:bg-transparent">
               Samanta Subedi
             </div>
-            <div className="text-xl md:text-3xl text-purple-700 md:mt-[3%] font-mono">
+            <div className="text-xl md:text-3xl text-purple-700 md:mt-[3%] font-mono bg-white/90 w-fit p-2 rounded-2xl dark:bg-transparent">
               {" "}
               I craft modern and responsive web applications with passion and
               precision.

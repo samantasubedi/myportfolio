@@ -17,17 +17,17 @@ function Navbar() {
           {tabs.map((tab) => (
             <NavLink
               to={tabpath[tab]}
-              className="font-bold z-10 relative text-white "
+              className="font-bold z-10 relative  "
               key={tab}
             >
               {({ isActive }) => (
                 <motion.button
-                  className="font-bold py-2 px-5 rounded-3xl relative cursor-pointer font-mono"
+                  className=" text-black dark:text-white  font-bold py-2 px-5 rounded-3xl relative cursor-pointer font-mono"
                   whileTap={{ scale: 0.9 }}
                 >
                   {isActive && (
                     <motion.div
-                      className="bg-gray-600 -z-10 text-white rounded-3xl absolute inset-0"
+                      className="dark:bg-gray-600  dark:text-white bg-gray-300 -z-10 text-white rounded-3xl absolute inset-0"
                       layoutId="highlight"
                       transition={{
                         type: "spring",

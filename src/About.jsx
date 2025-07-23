@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 function About() {
   return (
     <>
-      <div className="bg-[url('/images/basketballtexture.png')] h-full bg-gray-300 dark:bg-gray-950 pb-5 overflow-hidden">
+      <div className="bg-[url('/images/basketballtexture.png')] h-full bg-white/70 bg-blend-color-burn dark:bg-gray-950 pb-5 overflow-hidden">
         <Navbar />
         <div>
           <div>
@@ -13,12 +13,12 @@ function About() {
                   icon="line-md:person-filled"
                   className="bg-white rounded-full md:text-4xl text-3xl "
                 />
-                <span className="text-white md:text-4xl text-2xl font-bold ">
+                <span className=" text-black dark:text-white md:text-4xl text-2xl font-bold ">
                   Overview
                 </span>
               </div>
 
-              <p className="text-white  md:text-xl text-md md:w-2/3 w-full font-serif italic">
+              <p className=" text-black dark:text-white  md:text-xl text-md md:w-2/3 w-full font-serif italic">
                 I'm a passionate frontend web developer with a strong foundation
                 in HTML, CSS, JavaScript,TypeScript and modern libraries like
                 React.js,Next.js & Tailwind CSS. I enjoy building responsive,
@@ -30,16 +30,16 @@ function About() {
                 with every project I build.
               </p>
               <div className="flex flex-col gap-5 mt-1 md:mt-7 ">
-                <div className="flex gap-2 bg-white/10 rounded-2xl p-1 w-fit ">
+                <div className="flex gap-2 bg-neutral-600/20 dark:bg-neutral-600/40 rounded-2xl p-1 w-fit ">
                   <Icon
                     icon="fluent-mdl2:education"
                     className="text-3xl bg-white rounded-full"
                   />
-                  <span className="md:text-3xl text-xl text-white ">
+                  <span className="md:text-3xl text-xl  text-black dark:text-white ">
                     Education and Certifications
                   </span>
                 </div>
-                <div className="flex md:gap-5 gap-8 text-white">
+                <div className="flex md:gap-5 gap-8  text-black dark:text-white">
                   <span className="md:text-xl text-sm font-bold font-serif bg-white/10">
                     Tribhuvan University{" "}
                   </span>
@@ -48,7 +48,7 @@ function About() {
                     Technology (BScCSIT) (2023-Present)
                   </p>
                 </div>
-                <div className="flex text-white ">
+                <div className="flex  text-black dark:text-white">
                   <span className="md:text-xl text-sm font-bold font-serif bg-white/10">
                     Free Code Camp {"   "}
                   </span>
@@ -69,13 +69,13 @@ function About() {
                   icon="material-symbols:military-tech-outline-sharp"
                   className="text-4xl bg-white rounded-full"
                 />
-                <span className="text-white md:text-4xl text-2xl font-bold ">
+                <span className=" text-black dark:text-white md:text-4xl text-2xl font-bold ">
                   Tech Stack
                 </span>
               </div>
 
               <div className="flex flex-col gap-8 md:mt-8">
-                <div className="text-white md:text-3xl text-xl font-semibold text-center">
+                <div className=" text-black dark:text-white md:text-3xl text-xl font-semibold text-center">
                   Languages
                 </div>
                 <div className="flex  gap-4 items-center md:gap-x-20">
@@ -104,7 +104,7 @@ function About() {
               </div>
 
               <div className="flex flex-col gap-8 md:mt-8">
-                <div className="text-white md:text-3xl text-xl font-semibold text-center">
+                <div className=" text-black dark:text-white md:text-3xl text-xl font-semibold text-center">
                   Frameworks and Libraries
                 </div>
                 <div className="flex  gap-4 items-center md:gap-x-20">
@@ -129,7 +129,7 @@ function About() {
               </div>
 
               <div className="flex flex-col gap-8 md:mt-8">
-                <div className="text-white md:text-3xl text:xl font-semibold text-center">
+                <div className="  text-black dark:text-white md:text-3xl text:xl font-semibold text-center">
                   Others
                 </div>
                 <div className="flex  gap-4 items-center md:gap-x-20">

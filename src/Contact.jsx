@@ -39,23 +39,23 @@ function Contact() {
 
   return (
     <>
-      <div className="bg-[url('/images/basketballtexture.png')]  min-h-screen dark:bg-gray-950">
+      <div className="bg-[url('/images/basketballtexture.png')]  min-h-screen bg-white/70 bg-blend-color-burn dark:bg-gray-950">
         <Navbar />
         <div className="flex flex-col gap-6 items-center mt-10 px-4 text-center">
-          <div className="text-4xl md:text-6xl text-white font-bold  font-serif">
+          <div className="text-4xl md:text-6xl  text-black dark:text-white font-bold  font-serif">
             Get In Touch
           </div>
-          <div className="text-white font-semibold text-xl md:text-2xl font-serif">
+          <div className=" text-black dark:text-white font-semibold text-xl md:text-2xl font-serif">
             Leave your message
           </div>
         </div>
 
         <div className="flex justify-center mt-8 px-4">
           <form onSubmit={form.handleSubmit(onSubmit)} className="w-full">
-            <div className="flex flex-col gap-10 items-center justify-center border-2 border-white p-6 md:p-10 max-w-4xl mx-auto dark:bg-gray-900/50 w-full">
+            <div className=" bg-gray-200 flex flex-col gap-10 items-center justify-center border-2 border-black dark:border-white p-6 md:p-10 max-w-4xl mx-auto dark:bg-gray-900/50 w-full">
               {/* Name */}
               <div className="flex flex-col md:flex-row gap-5 w-full md:items-center">
-                <span className="text-white text-2xl md:text-3xl w-full md:w-32">
+                <span className=" text-black dark:text-white text-2xl md:text-3xl w-full md:w-32">
                   Name:
                 </span>
                 <div className="flex flex-col gap-1 w-full">
@@ -63,7 +63,7 @@ function Contact() {
                     {...form.register("name")}
                     type="text"
                     placeholder="Your name"
-                    className="border-white border-2 p-2 rounded-xl text-base text-white bg-transparent w-full"
+                    className="dark:border-white bg-gray-400 dark:bg-gray-800 border-gray-600 border-2 p-2 rounded-xl text-base  text-black dark:text-white  w-full"
                   />
                   <label className="text-red-500 text-sm">
                     {form.formState.errors.name?.message}
@@ -73,7 +73,7 @@ function Contact() {
 
               {/* Email */}
               <div className="flex flex-col md:flex-row gap-5 w-full md:items-center">
-                <span className="text-white text-2xl md:text-3xl w-full md:w-32">
+                <span className=" text-black dark:text-white text-2xl md:text-3xl w-full md:w-32">
                   E-mail:
                 </span>
                 <div className="flex flex-col gap-1 w-full">
@@ -81,7 +81,7 @@ function Contact() {
                     {...form.register("email")}
                     type="email"
                     placeholder="Your E-mail"
-                    className="border-white border-2 p-2 rounded-xl text-base text-white bg-transparent w-full"
+                    className="dark:border-white bg-gray-400 dark:bg-gray-800 border-2 p-2 rounded-xl text-base  text-black dark:text-white w-full"
                   />
                   <label className="text-red-500 text-sm">
                     {form.formState.errors.email?.message}
@@ -91,7 +91,7 @@ function Contact() {
 
               {/* Message */}
               <div className="flex flex-col md:flex-row gap-5 w-full">
-                <span className="text-white text-2xl md:text-3xl w-full md:w-32">
+                <span className=" text-black dark:text-white text-2xl md:text-3xl w-full md:w-32">
                   Message:
                 </span>
                 <div className="flex flex-col gap-1 w-full">
@@ -99,7 +99,7 @@ function Contact() {
                     {...form.register("message")}
                     rows={4}
                     placeholder="Your Message"
-                    className="border-white border-2 p-2 rounded-xl text-base text-white bg-transparent w-full"
+                    className="dark:border-white bg-gray-400 dark:bg-gray-800 border-2 p-2 rounded-xl text-base  text-black dark:text-white  w-full"
                   ></textarea>
                   <label className="text-red-500 text-sm">
                     {form.formState.errors.message?.message}
