@@ -20,7 +20,7 @@ function App() {
   });
   useEffect(() => {
     const root = document.documentElement;
-    if (theme == "dark") {
+    if (theme === "dark") {
       //This condition adds or removes the dark class on the <html> element depending on the current theme.
       root.classList.add("dark");
     } else {
@@ -34,7 +34,7 @@ function App() {
       <button
         className=" font-bold fixed right-5 z-20 md:top-2.5 top-12 cursor-pointer"
         onClick={() => {
-          settheme(theme == "dark" ? "light" : "dark");
+          settheme(theme === "dark" ? "light" : "dark");
         }}
       >
         {theme == "dark" ? (
@@ -45,7 +45,7 @@ function App() {
         ) : (
           <Icon
             icon="line-md:moon-alt-loop"
-            className="bg-gray-700 size-5 md:size-10 rounded-full "
+            className="bg-white size-5 md:size-10 rounded-full "
           />
         )}
       </button>
