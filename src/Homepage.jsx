@@ -24,10 +24,10 @@ function Homepage() {
           </div>
         </div>
 
-        <div className="absolute top-[60%] md:top-20 md:left-[45%] left-[-23%] overflow-hidden">
+        <div className="absolute top-[64%] md:top-20 md:left-[45%] left-[-23%] overflow-hidden">
           <RollingGallery autoplay={true} pauseOnHover={false} />
         </div>
-        <div className="absolute flex gap-3 md:gap-5 md:right-[5%] bottom-3 right-[20px]">
+        <div className="absolute flex gap-3 md:gap-5 md:right-[5%] md:bottom-3 bottom-[8%] right-[20px]">
           <a href="https://www.facebook.com/samanta.subedi.7" target="_blank">
             {" "}
             <Icon
