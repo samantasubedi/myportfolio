@@ -60,7 +60,7 @@ function About() {
             </div>
           </div>
 
-          <div className="w-screen h-1 bg-white"></div>
+          <div className="w-screen h-1 dark:bg-white bg-black"></div>
 
           <div>
             <div className="p-5 flex flex-col gap-5 items-center">
