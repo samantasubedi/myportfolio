@@ -76,6 +76,12 @@ This project showcases real-time updates using setInterval, effective use of eve
       demopath: "https://samantasubedi.github.io/gender-checker/",
       githubpath: "https://github.com/samantasubedi/gender-checker",
     },
+    {
+      projecttitle: "Expense Log",
+      projectdescription:"Expense Log is a full-stack expense tracking application built with Next.js, Prisma, and MySQL. It enables users to securely record and categorize their daily expenses using a clean multi-step form with validation. The app supports authentication through Google and GitHub via NextAuth.js, providing a smooth and secure login experience. Users can add, view, filter, and analyze their expenses, while all data is efficiently managed with Prisma and stored in a reliable MySQL database."
+  ,  projectimagepath:"/images/expenselogdemoimage.png",
+      demopath:"https://expense.samantasubedi.com.np/"
+    }
   ];
   return (
     <>
