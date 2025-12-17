@@ -7,6 +7,13 @@ function Projects() {
 
   const projectdata = [
     {
+       projecttitle: "Expense Log",
+       projectdescription:"Expense Log is a full-stack expense tracking application built with Next.js, Prisma, and MySQL. It enables users to securely record and categorize their daily expenses using a clean multi-step form with validation. The app supports authentication through Google and GitHub via NextAuth.js, providing a smooth and secure login experience. Users can add, view, filter, and analyze their expenses, while all data is efficiently managed with Prisma and stored in a reliable MySQL database."
+    ,  projectimagepath:"/images/expenselogdemoimage.png",
+       demopath:"https://expense.samantasubedi.com.np/",
+       githubpath:"https://github.com/samantasubedi/expenselog"
+     },
+    {
       projecttitle: "Job Application Manager",
       projectdescription: `A responsive React app that helps job seekers efficiently track and manage their job applications.
 Features include adding/editing applications, uploading resumes and cover letters, tracking application statuses, and storing data locally for privacy and offline access.
@@ -15,14 +22,7 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
       demopath: "https://job-application-tracker-ashen.vercel.app/",
       githubpath: "https://github.com/samantasubedi/Job-application-tracker",
     },
-
-    {
-      projecttitle: "AI Resume Analyzer",
-      projectdescription: `A smart resume evaluation tool that uses OpenAI's GPT-4o to analyze resumes and provide structured feedback. Users can upload their resume as an image, and the system generates a detailed analysis covering strengths, weaknesses, and actionable suggestions. The tool assesses formatting, technical skills, project impact, and overall presentation, offering ratings across various factors. Built with Next.js, React, Tailwind CSS, and OpenAI API, it demonstrates skills in API integration, prompt engineering, image handling, and full-stack development.`,
-      projectimagepath: "/images/resumeanalyzerdemoimage.png",
-      demopath: "https://resume-analyzer-eight-delta.vercel.app/",
-      githubpath: "https://github.com/samantasubedi/Resume_Analyzer",
-    },
+   
 
     {
       projecttitle: "Weather App",
@@ -76,12 +76,7 @@ This project showcases real-time updates using setInterval, effective use of eve
       demopath: "https://samantasubedi.github.io/gender-checker/",
       githubpath: "https://github.com/samantasubedi/gender-checker",
     },
-    {
-      projecttitle: "Expense Log",
-      projectdescription:"Expense Log is a full-stack expense tracking application built with Next.js, Prisma, and MySQL. It enables users to securely record and categorize their daily expenses using a clean multi-step form with validation. The app supports authentication through Google and GitHub via NextAuth.js, providing a smooth and secure login experience. Users can add, view, filter, and analyze their expenses, while all data is efficiently managed with Prisma and stored in a reliable MySQL database."
-  ,  projectimagepath:"/images/expenselogdemoimage.png",
-      demopath:"https://expense.samantasubedi.com.np/"
-    }
+ 
   ];
   return (
     <>
