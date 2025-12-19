@@ -13,6 +13,15 @@ function Projects() {
        demopath:"https://expense.samantasubedi.com.np/",
        githubpath:"https://github.com/samantasubedi/expenselog"
      },
+     {
+  projecttitle: "Resume Analyzer",
+  projectdescription: `A web app that analyzes resumes to provide insights and scoring based on content quality, structure, and keywords. Users can upload their resumes and receive detailed feedback to improve their job applications.
+Built with React, Node.js, and OpenAI API, showcasing skills in file handling, text analysis, API integration, and creating interactive user interfaces.`,
+  projectimagepath: "/images/resumeanalyzerdemoimage.png",
+  demopath: "https://resume-analyzer-eight-delta.vercel.app/",
+  githubpath: "https://github.com/samantasubedi/Resume_Analyzer",
+},
+
     {
       projecttitle: "Job Application Manager",
       projectdescription: `A responsive React app that helps job seekers efficiently track and manage their job applications.
