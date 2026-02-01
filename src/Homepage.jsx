@@ -6,7 +6,7 @@ import Snowfall from "react-snowfall";
 function Homepage() {
   return (
     <>
-      <div className="relative bg-[url('/images/basketballtexture.png')] bg-blend-color-burn bg-white/70 dark:bg-gray-950 w-screen h-screen overflow-hidden">
+      <div className="relative bg-[url('/images/basketballtexture.png')] bg-blend-color-burn bg-white/80 dark:bg-gray-950 w-screen h-screen overflow-hidden">
         <Navbar />
         <Snowfall color="purple"></Snowfall>
         <div className="flex mt-[45%] md:mt-[9%] h-screen left-[2%] absolute items-start px-4">

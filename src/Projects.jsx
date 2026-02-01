@@ -21,7 +21,15 @@ Built with React, Node.js, and OpenAI API, showcasing skills in file handling, t
   demopath: "https://resume-analyzer-eight-delta.vercel.app/",
   githubpath: "https://github.com/samantasubedi/Resume_Analyzer",
 },
+ {
+      projecttitle: "To Do List",
+      projectdescription: `Todo App is a full-stack task management application built with Next.js, Tailwind CSS, and Express.js, using MySQL for persistent data storage. It allows users to create todos, mark tasks as completed, set priorities, and filter tasks based on priority and completion status. The app also includes a light and dark theme toggle for a better user experience, focusing on simplicity, performance, and usability.
 
+`,
+      projectimagepath: "/images/todolistdemoimage.png",
+      demopath: "https://todo.samantasubedi.com.np/",
+      githubpath: "https://github.com/samantasubedi/toDoList",
+    },
     {
       projecttitle: "Job Application Manager",
       projectdescription: `A responsive React app that helps job seekers efficiently track and manage their job applications.
@@ -40,15 +48,7 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
       demopath: "https://samantasubedi.github.io/weather-app/",
       githubpath: "https://github.com/samantasubedi/weather-app",
     },
-    {
-      projecttitle: "To Do List",
-      projectdescription: `A responsive task management app built with React and Tailwind CSS. Users can add new tasks, delete them, and reorder them using “Move Up” and “Move Down” buttons. This project highlights my understanding of React state management, list rendering, and user interaction handling in a clean, intuitive interface.
-
-`,
-      projectimagepath: "/images/todolistdemoimage.png",
-      demopath: "https://to-do-list-theta-lovat.vercel.app/",
-      githubpath: "https://github.com/samantasubedi/To-do-list",
-    },
+   
     {
       projecttitle: "Password Generator",
       projectdescription: `A customizable password generator built with HTML, CSS, JavaScript, and styled using Tailwind CSS. Users can select character options (uppercase, lowercase, numbers, symbols) and generate a secure 8-character password based on their preferences.
@@ -60,24 +60,24 @@ This project demonstrates dynamic DOM manipulation, event handling, conditional 
       demopath:
         "https://samantasubedi.github.io/basic-projects/Password-Generator/html/passwordgenerator.html",
     },
-    {
-      projecttitle: "Rock Paper Scissor Game",
-      projectdescription: `A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. It features an interactive UI, real-time result updates, and dynamic gameplay against a computer opponent. The game includes randomized computer choices, a scoring system, and smooth animations for an engaging user experience.`,
-      projectimagepath: "/images/rpcdemoimage.png",
-      demopath: "https://samantasubedi.github.io/Rock-Paper-Scissor/",
-      githubpath: "https://github.com/samantasubedi/Rock-Paper-Scissor",
-    },
-    {
-      projecttitle: "Stop Watch",
-      projectdescription: `A digital stopwatch built with HTML, CSS, and JavaScript, featuring start, stop, and reset functionality. The timer displays hours, minutes, seconds, and milliseconds with smooth UI transitions and responsive controls.
+//     {
+//       projecttitle: "Rock Paper Scissor Game",
+//       projectdescription: `A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. It features an interactive UI, real-time result updates, and dynamic gameplay against a computer opponent. The game includes randomized computer choices, a scoring system, and smooth animations for an engaging user experience.`,
+//       projectimagepath: "/images/rpcdemoimage.png",
+//       demopath: "https://samantasubedi.github.io/Rock-Paper-Scissor/",
+//       githubpath: "https://github.com/samantasubedi/Rock-Paper-Scissor",
+//     },
+//     {
+//       projecttitle: "Stop Watch",
+//       projectdescription: `A digital stopwatch built with HTML, CSS, and JavaScript, featuring start, stop, and reset functionality. The timer displays hours, minutes, seconds, and milliseconds with smooth UI transitions and responsive controls.
 
-This project showcases real-time updates using setInterval, effective use of event listeners, time logic handling, and dynamic DOM manipulation to build a practical and visually styled utility.`,
-      projectimagepath: "/images/stopwatchdemoimage.png",
-      demopath:
-        "https://samantasubedi.github.io/basic-projects/stopwatch/html/stopwatch.html",
-      githubpath:
-        "https://github.com/samantasubedi/basic-projects/tree/main/stopwatch",
-    },
+// This project showcases real-time updates using setInterval, effective use of event listeners, time logic handling, and dynamic DOM manipulation to build a practical and visually styled utility.`,
+//       projectimagepath: "/images/stopwatchdemoimage.png",
+//       demopath:
+//         "https://samantasubedi.github.io/basic-projects/stopwatch/html/stopwatch.html",
+//       githubpath:
+//         "https://github.com/samantasubedi/basic-projects/tree/main/stopwatch",
+//     },
     {
       projecttitle: "Gender Predictor",
       projectdescription: `A web-based Gender Prediction Tool built with HTML, CSS, and JavaScript. Users can input a name, and the app predicts the gender along with a probability score and estimated name frequency. The interface is designed with a clean, user-friendly layout and dynamic result updates for an interactive experience.`,
