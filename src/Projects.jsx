@@ -6,6 +6,12 @@ function Projects() {
   const myref = useRef(null);
 
   const projectdata = [
+    {projecttitle: "Chat Application",
+      projectdescription:"A full-stack real-time chat application built with Next.js on the frontend and Express.js on the backend, using Socket.IO for instant, bidirectional communication. The app supports live user presence, active user lists, and real-time message delivery with a clean, modern UI. It demonstrates my understanding of WebSockets, event-driven architecture, and scalable real-time systems."
+    ,projectimagepath:"/images/chatdemoimage.png"
+      ,demopath:"https://chat.samantasubedi.com.np/"
+    ,githubpath:"https://github.com/samantasubedi/chat-app"
+    },
     {
        projecttitle: "Expense Log",
        projectdescription:"Expense Log is a full-stack expense tracking application built with Next.js, Prisma, and MySQL. It enables users to securely record and categorize their daily expenses using a clean multi-step form with validation. The app supports authentication through Google and GitHub via NextAuth.js, providing a smooth and secure login experience. Users can add, view, filter, and analyze their expenses, while all data is efficiently managed with Prisma and stored in a reliable MySQL database."
@@ -48,7 +54,13 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
       demopath: "https://samantasubedi.github.io/weather-app/",
       githubpath: "https://github.com/samantasubedi/weather-app",
     },
-   
+     {
+      projecttitle: "Gender Predictor",
+      projectdescription: `A web-based Gender Prediction Tool built with HTML, CSS, and JavaScript. Users can input a name, and the app predicts the gender along with a probability score and estimated name frequency. The interface is designed with a clean, user-friendly layout and dynamic result updates for an interactive experience.`,
+      projectimagepath: "/images/genderpredictordemoimage.png",
+      demopath: "https://samantasubedi.github.io/gender-checker/",
+      githubpath: "https://github.com/samantasubedi/gender-checker",
+    },
     {
       projecttitle: "Password Generator",
       projectdescription: `A customizable password generator built with HTML, CSS, JavaScript, and styled using Tailwind CSS. Users can select character options (uppercase, lowercase, numbers, symbols) and generate a secure 8-character password based on their preferences.
@@ -78,13 +90,7 @@ This project demonstrates dynamic DOM manipulation, event handling, conditional 
 //       githubpath:
 //         "https://github.com/samantasubedi/basic-projects/tree/main/stopwatch",
 //     },
-    {
-      projecttitle: "Gender Predictor",
-      projectdescription: `A web-based Gender Prediction Tool built with HTML, CSS, and JavaScript. Users can input a name, and the app predicts the gender along with a probability score and estimated name frequency. The interface is designed with a clean, user-friendly layout and dynamic result updates for an interactive experience.`,
-      projectimagepath: "/images/genderpredictordemoimage.png",
-      demopath: "https://samantasubedi.github.io/gender-checker/",
-      githubpath: "https://github.com/samantasubedi/gender-checker",
-    },
+  
  
   ];
   return (
