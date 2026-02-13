@@ -54,13 +54,7 @@ Built with React, Tailwind CSS, and React Icons, showcasing skills in component 
       demopath: "https://samantasubedi.github.io/weather-app/",
       githubpath: "https://github.com/samantasubedi/weather-app",
     },
-     {
-      projecttitle: "Gender Predictor",
-      projectdescription: `A web-based Gender Prediction Tool built with HTML, CSS, and JavaScript. Users can input a name, and the app predicts the gender along with a probability score and estimated name frequency. The interface is designed with a clean, user-friendly layout and dynamic result updates for an interactive experience.`,
-      projectimagepath: "/images/genderpredictordemoimage.png",
-      demopath: "https://samantasubedi.github.io/gender-checker/",
-      githubpath: "https://github.com/samantasubedi/gender-checker",
-    },
+
     {
       projecttitle: "Password Generator",
       projectdescription: `A customizable password generator built with HTML, CSS, JavaScript, and styled using Tailwind CSS. Users can select character options (uppercase, lowercase, numbers, symbols) and generate a secure 8-character password based on their preferences.
@@ -71,27 +65,13 @@ This project demonstrates dynamic DOM manipulation, event handling, conditional 
         "https://github.com/samantasubedi/basic-projects/tree/main/Password-Generator",
       demopath:
         "https://samantasubedi.github.io/basic-projects/Password-Generator/html/passwordgenerator.html",
+    },     {
+      projecttitle: "Gender Predictor",
+      projectdescription: `A web-based Gender Prediction Tool built with HTML, CSS, and JavaScript. Users can input a name, and the app predicts the gender along with a probability score and estimated name frequency. The interface is designed with a clean, user-friendly layout and dynamic result updates for an interactive experience.`,
+      projectimagepath: "/images/genderpredictordemoimage.png",
+      demopath: "https://samantasubedi.github.io/gender-checker/",
+      githubpath: "https://github.com/samantasubedi/gender-checker",
     },
-//     {
-//       projecttitle: "Rock Paper Scissor Game",
-//       projectdescription: `A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. It features an interactive UI, real-time result updates, and dynamic gameplay against a computer opponent. The game includes randomized computer choices, a scoring system, and smooth animations for an engaging user experience.`,
-//       projectimagepath: "/images/rpcdemoimage.png",
-//       demopath: "https://samantasubedi.github.io/Rock-Paper-Scissor/",
-//       githubpath: "https://github.com/samantasubedi/Rock-Paper-Scissor",
-//     },
-//     {
-//       projecttitle: "Stop Watch",
-//       projectdescription: `A digital stopwatch built with HTML, CSS, and JavaScript, featuring start, stop, and reset functionality. The timer displays hours, minutes, seconds, and milliseconds with smooth UI transitions and responsive controls.
-
-// This project showcases real-time updates using setInterval, effective use of event listeners, time logic handling, and dynamic DOM manipulation to build a practical and visually styled utility.`,
-//       projectimagepath: "/images/stopwatchdemoimage.png",
-//       demopath:
-//         "https://samantasubedi.github.io/basic-projects/stopwatch/html/stopwatch.html",
-//       githubpath:
-//         "https://github.com/samantasubedi/basic-projects/tree/main/stopwatch",
-//     },
-  
- 
   ];
   return (
     <>
